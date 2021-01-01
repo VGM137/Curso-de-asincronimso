@@ -7,7 +7,10 @@
     "callback": "node src/callbacks/index.js",
     "callback:challenge": "node src/callbacks/challenge.js",
     "promise": "node src/promise/index.js",
-    "promise:challenge": "node src/promise/challenge.js"
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js",
+    "start": "live-server"
   },
   "keywords": [
     "callbacks",
@@ -18,5 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }

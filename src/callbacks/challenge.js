@@ -1,6 +1,5 @@
 // Implementación: ene ste caso va a trabajar sobre node, por lo que necesitamos instalar una dependencia que nos va a permitir hacer peticiones a diferentes recursos, en este caso a la api de rick and morty, el comando es: npm install xmlhttprequest --save (save para instalarla como un dependencia de desarrollo)
 // AHora hay que instanciar el request
-
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest; //Propiedad para hacer instancias a un llamado (a una API) desde JS
 //Crear función que permita traer informacion desde la API
 let API = 'https://rickandmortyapi.com/api/character/'
@@ -34,4 +33,4 @@ fetchData(API, function(error1, data1){
       console.log(data3.dimension)
     })
   })
-})
+}) 

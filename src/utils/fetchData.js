@@ -16,3 +16,4 @@ const fetchData = (url_api) => {
 }
 
 module.exports = fetchData
+
